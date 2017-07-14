@@ -17,30 +17,33 @@ $(function() {
             image(ctx, getRandomInt(1, 3), 30, 15, 40,40);
             image(ctx, getRandomInt(1, 3), 45, 30, 40,40);
             image(ctx, 7, 10, 70, 100, 30);
-            image(ctx, 0, 90, 20, 40, 40);
+            image(ctx, 0, 80, 10, 80, 80);
 
-            image(ctx, getRandomInt(1, 3), 130, 15, 40, 40);
-            image(ctx, getRandomInt(1, 3), 140, 30, 40, 40);
-            image(ctx, getRandomInt(1, 3), 150, 15, 40, 40);
+            image(ctx, getRandomInt(1, 3), 140, 15, 40, 40);
+            image(ctx, getRandomInt(1, 3), 155, 30, 40, 40);
+            image(ctx, getRandomInt(1, 3), 170, 15, 40, 40);
             image(ctx, 8, 120, 70, 100, 30);
-            image(ctx, 0, 200, 20, 40, 40);
+            image(ctx, 0, 185, 10, 80, 80);
 
-            image(ctx, 6, 40, -200, 500, 500);
-            image(ctx, getRandomInt(1, 3), 240, 40, 40, 40);
-            image(ctx, getRandomInt(1, 3), 255, 20, 40, 40);
-            image(ctx, getRandomInt(1, 3), 270, 40, 40, 40);
-            image(ctx, getRandomInt(1, 3), 295, 20, 40, 40);
+            image(ctx, 6, -10, -240, 600, 600);
+            image(ctx, getRandomInt(1, 3), 245, 35, 40, 40);
+            image(ctx, getRandomInt(1, 3), 270, 25, 40, 40);
+            image(ctx, getRandomInt(1, 3), 290, 35, 40, 40);
             image(ctx, 9, 230, 70, 120, 30);
             
 
-            image(ctx, getRandomInt(1, 3), 240, 150, 30, 30);
-            image(ctx, getRandomInt(1, 3), 250, 140, 30, 30);
-            image(ctx, getRandomInt(1, 3), 260, 150, 30, 30);
-            image(ctx, getRandomInt(1, 3), 270, 140, 30, 30);
-            image(ctx, 10, 230, 175, 100, 30);
-            image(ctx, 4, 230, 155, 80, 80);
+            image(ctx, getRandomInt(1, 3), 250, 150, 40, 40);
+            image(ctx, getRandomInt(1, 3), 265, 135, 40, 40);
+            image(ctx, getRandomInt(1, 3), 280, 150, 40, 40);
+            image(ctx, 10, 240, 175, 100, 30);
+            image(ctx, 4, 240, 155, 80, 80);
+            image(ctx, 11, 250, 80, 80, 80);
+            image(ctx, 12, 230, 80, 80, 80);
 
-        }, 500);
+            image(ctx, 0, 320, 10, 80, 80);
+            image(ctx, 13, 375, 70, 80, 30);
+
+        }, 300);
 
         
 
@@ -103,7 +106,7 @@ $(function() {
 
 
 
-        }, 200);
+        }, 100);
     }
 
 
